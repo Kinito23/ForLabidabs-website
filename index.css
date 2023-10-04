@@ -1,0 +1,49 @@
+.grand-parent {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 5px;
+}
+
+.parent {
+    position: relative;
+    background-color: yellow;
+    padding: 73px;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    position: absolute;
+    border-radius: 5px;
+    height: inherit;
+    border: 2px solid aqua;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+.child1 {
+    position: absolute;
+    bottom: 15%;
+    left: 37%;
+    
+}
+
+.child2 {
+    position: absolute;
+    bottom: 15%;
+    right: 37%;
+}
+
+
